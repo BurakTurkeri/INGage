@@ -15,6 +15,7 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-PaFTyvWfBpq9xhcrN2C0Ug9irWCv2joLU6niEbchpqeXjcY0mtp3LXC+b3AXn1/NhN7dQ8e8RmqRPT86DBngzA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -280,37 +281,21 @@
                                         </div>
                                         <form class="user">
                                             <div class="form-group row justify-content-center">
-                                                <select id="mySelect" data-show-content="true" class="form-control">
-                                                    <option selected>Asset Type(Document,Photo,Video)</option>
-                                                    <optgroup label="Document">
-                                                        <option>Asteroids</option>
-                                                        <option>Donkey Kong</option>
-                                                        <option>Pac-Man</option>
-                                                      </optgroup>
-                                                      <optgroup label="Photo">
-                                                        <option>Mortal Kombat</option>
-                                                        <option>Street Fighter</option>
-                                                        <option>Tekken</option>
-                                                      </optgroup>
-                                                      <optgroup label="Video">
-                                                          <option>Mortal Kombat</option>
-                                                          <option>Street Fighter</option>
-                                                          <option>Tekken</option>
-                                                        </optgroup>
+                                                <select id="mySelect" data-show-content="true" class="form-control" style="border-radius: 10rem;">
+                                                    <option selected>Asset Type</option>
+                                                        <option>Document</option>
+                                                        <option>Photo</option>
+                                                        <option>Video</option>
                                                 </select>
                                             </div>
                                             <div class="form-group row justify-content-center">
-                                                <div class="col-sm-6">
                                                     <input type="text" class="form-control form-control-user" id="date" placeholder="Name">
-                                                </div>
                                             </div>
                                             <div class="form-group row justify-content-center">
-                                                <div class="col-sm-6">
                                                     <input type="text" class="form-control form-control-user" id="date" placeholder="Description">
-                                                </div>
                                             </div>
                                             <div class="custom-file mb-3">
-                                                <input type="file" class="custom-file-input" id="customFileLang" lang="pl-Pl">
+                                                <input type="file" class="custom-file-input" id="customFileLang" lang="pl-Pl" style="border-radius: 10rem;">
                                                 <label class="custom-file-label" for="customFileLang">Choose File</label>
                                               </div>
                                               
