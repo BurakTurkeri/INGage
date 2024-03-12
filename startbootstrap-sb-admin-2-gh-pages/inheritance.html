@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Buttons</title>
+    <title>SB Admin 2 - Cards</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -54,7 +54,6 @@
             <div class="sidebar-heading">
                 Interface
             </div>
-
             <!-- Nav Item - Charts -->
             <li class="nav-item active">
                 <a class="nav-link" href="upload.html">
@@ -66,7 +65,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="inheritance.html">
                     <i class="fas fa-money-bill-wave fa-chart-area"></i>
-                    <span>inheritance</span></a>
+                    <span>Inheritance</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="transfer.html">
@@ -268,58 +267,70 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container">
 
-
-                    <div class="row justify-content-center">
-                        <div class="row">
-
-                            <div class="col-lg-12">
-                                <form class="user">
-                                    <div class="form-group row justify-content-center">
-                                        <input type="text" class="form-control form-control-user" id="exampleInputEmail"
-                                            aria-describedby="emailHelp" placeholder="Asset List">
+                    <div class="card o-hidden border-0 shadow-lg">
+                        <div class="card-body p-0">
+                            <!-- Nested Row within Card Body -->
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <div class="p-5">
+                                        <div class="text-center">
+                                            <img class="img-fluid" style="width: 20rem;" src="img/ingage.png" alt="INGAGE">
+                                        </div>
+                                        <form class="user">
+                                            <div class="form-group row justify-content-center">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Asset List
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="#">Asset 1</a>
+                                                        <a class="dropdown-item" href="#">Asset 2</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row justify-content-center">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Transfer Link Send To
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="#">ilhanb@hotmail.com</a>
+                                                        <a class="dropdown-item" href="#">(+90 000 00 00)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row justify-content-center">
+                                                <div class="col-sm-6">
+                                                    <input type="text" class="form-control form-control-user" id="date" placeholder="Description">
+                                                </div>
+                                            </div>
+                                            <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                                Send Asset
+                                            </a>
+                                        </form>
                                     </div>
-                                    <div class="form-group row justify-content-center">
-                                        <input type="text" class="form-control form-control-user" id="exampleInputPassword"
-                                            placeholder="Transfer send to link">
-                                    </div>
-
-                                    <div class="form-group row justify-content-center">
-                                        <input type="text" class="form-control form-control-user" id="exampleInputEmail"
-                                            aria-describedby="emailHelp" placeholder="Description">
-                                    </div>
-
-                                    <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                        Complete
-                                    </a>
-                                </form>
-
-
+                                </div>
                             </div>
-
                         </div>
-                    </div>
-
-
-
+                    </div>          
                 </div>
-                <!-- /.container-fluid -->
-
-            </div>
             <!-- End of Main Content -->
 
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; INGage 2024</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
+
 
         </div>
+                    <!-- Footer -->
+                    <footer class="sticky-footer bg-white">
+                        <div class="container my-auto">
+                            <div class="copyright text-center my-auto">
+                                <span>Copyright &copy; INGage 2024</span>
+                            </div>
+                        </div>
+                    </footer>
+            <!-- End of Footer -->
+
         <!-- End of Content Wrapper -->
 
     </div>
